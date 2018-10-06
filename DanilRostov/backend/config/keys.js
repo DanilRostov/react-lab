@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 const {
   DB_ID,
   DB_USER,
