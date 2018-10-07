@@ -6,8 +6,9 @@ import socketEvents from '../../socketEvents';
 const { USER_CONNECTED, LOG_OUT } = socketEvents;
 import LoginForm from '../LoginForm';
 import ChatContainer from '../ChatContainer';
+import { API_URL } from '../../constants/api';
 
-const socketUrl = 'http://192.168.0.3:5005';
+const socketUrl = API_URL;
 
 class Layout extends Component {
   state = {

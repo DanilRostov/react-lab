@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
-import ReactDom from 'react-dom';
+import { Provider } from 'react-redux';
+import store from './store';
 
 import Layout from './components/Layout';
+import AuthContainer from './containers/AuthContainer';
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
-      <Layout title="Chat App" />
+      <Provider store={store}>
+        <AuthContainer />
+      </Provider>
     );
   }
 };
