@@ -1,0 +1,24 @@
+.chat-room-container {
+	height: 100%;
+	width: 76.25%;
+}
+
+.chat-room {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+}
+
+.chat-room.choose {
+	align-items: center;
+	justify-content: center;
+	font-size: 2em;
+}
+
+@media screen and (max-width: 510px) {
+	.chat-room-container {
+		width: 100%;
+	}
+}

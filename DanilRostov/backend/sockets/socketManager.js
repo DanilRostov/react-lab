@@ -1,5 +1,5 @@
 'use strict'
-const io = require('../server.js').io;
+const io = require('../server');
 const {
   VERIFY_USER,
   USER_CONNECTED,
